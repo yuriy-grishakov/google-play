@@ -1,0 +1,566 @@
+<script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Google Play</title>
+	<!-- Styling -->
+	<meta name="theme-color" content="#00875F">
+	<link rel="apple-touch-icon" href="img/">
+	<link rel="icon" type="image/png" href="img/favicon.svg">
+	<!-- CSS -->
+	<link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+
+<header class="header" id="header">
+	<div class="container">
+		<div class="header-wrap">
+			<button class="header-wrap__btn header-wrap__btn_back btn"></button>
+			<button class="header-wrap__btn header-wrap__btn_search btn"></button>
+			<button class="header-wrap__btn header-wrap__btn_menu btn"></button>
+		</div>
+	</div>
+</header>
+
+<section class="main" id="main">
+	<div class="container">
+		<div class="main-wrapper">
+			<div class="main-app">
+				<img src="img/app-icons/main-app.jpg" alt="Асвальт 9" class="main-app__img">
+		    </div>
+		    <div class="main-wrap">
+		    	<h1 class="main-wrap__title">
+		    		Asphalt 9: Легенды
+		    	</h1>
+		    	<span class="main-wrap__developer">
+		    		Gameloft Se
+		    	</span>
+		    	<div class="main-wrap__box">
+		    		<p class="main-wrap__text">
+		    			Есть реклама
+		    		</p>
+		    		<p class="main-wrap__text">
+		    			Есть платный контент
+		    		</p>
+		    	</div>
+		    </div>
+		</div>
+
+	    <div class="carousel-info"
+		data-flickity='{ "freeScroll": true, "contain": true, "prevNextButtons": false, "pageDots": false }'>
+			<div class="carousel-info__item">
+				<div class="carousel-info__icon">
+	    			<div class="rating-icon">
+		    			<span>4,4</span>
+		    			<img src="img/google-icons/star-solid-dark.svg" alt="star">
+	    			</div>
+	    		</div>
+	    		<p class="carousel-info__text">
+	    			2 млн отзывов
+	    		</p>
+			</div>
+			<div class="carousel-info__item">
+				<div class="carousel-info__icon">
+	    			<img src="img/google-icons/download.svg" class="download-icon" alt="download">
+	    		</div>
+	    		<p class="carousel-info__text">
+	    			2,6 ГБ
+	    		</p>
+			</div>
+			<div class="carousel-info__item">
+				<div class="carousel-info__icon">
+	    			<div class="age-icon"><span>7+</span></div>
+	    		</div>
+	    		<p class="carousel-info__text">
+	    			7+ ⓘ 
+	    		</p>
+			</div>
+			<div class="carousel-info__item">
+				<div class="carousel-info__icon">
+	    			<span class="amount-icon">50 млн+</span>
+	    		</div>
+	    		<p class="carousel-info__text">
+	    			Скачивания
+	    		</p>
+			</div>
+		</div>
+	    <button class="install">
+	    	Установить
+	    </button>
+	</div>
+</section>
+
+<section class="demo" id="demo">
+	<div class="container container_big">
+		<!-- Flickity HTML init -->
+		<div class="carousel-demo"
+		data-flickity='{ "freeScroll": true, "contain": true, "prevNextButtons": false, "pageDots": false }'>
+			<div class="carousel-demo__item">
+				<img src="img/app-demo/asphalt9/asphalt9-img1.jpg" alt="qqq">
+			</div>
+			<div class="carousel-demo__item">
+				<img src="img/app-demo/asphalt9/asphalt9-img2.jpg" alt="qqq">
+			</div>
+			<div class="carousel-demo__item">
+				<img src="img/app-demo/asphalt9/asphalt9-img3.jpg" alt="qqq">
+			</div>
+			<div class="carousel-demo__item">
+				<img src="img/app-demo/asphalt9/asphalt9-img4.jpg" alt="qqq">
+			</div>
+			<div class="carousel-demo__item">
+				<img src="img/app-demo/asphalt9/asphalt9-img5.jpg" alt="qqq">
+			</div>
+		</div>
+	</div>
+</section>
+
+<section class="about" id="about">
+	<div class="container">
+		<div class="section-row">
+			<h2 class="section-title">
+				Описание
+			</h2>
+			<button class="more-btn btn"></button>
+		</div>
+		<p class="description">
+			Идеальная аркадная гонка. Мчись по улицам на легендарных роскошных aвтомобилях
+		</p>
+		<div class="carousel-tags"
+		data-flickity='{ "freeScroll": true, "contain": true, "prevNextButtons": false, "pageDots": false }'>
+			<div class="carousel-tags__item">
+				<a href="#" class="carousel-tags__btn">
+					№ 2 “гонки” (бестселлеры).
+				</a>
+			</div>
+			<div class="carousel-tags__item">
+				<a href="#" class="carousel-tags__btn">
+					Автомобили
+				</a>
+			</div>
+			<div class="carousel-tags__item">
+				<a href="#" class="carousel-tags__btn">
+					Многопользовательские
+				</a>
+			</div>
+			<div class="carousel-tags__item">
+				<a href="#" class="carousel-tags__btn">
+					Однопользовательские
+				</a>
+			</div>
+		</div>
+	</div>
+</section>
+
+<section class="rating-section" id="rating-section">
+	<div class="container">
+		<h2 class="section-title">
+			Оценить приложение
+		</h2>
+		<p class="section-subtitle">
+			Поделитесь своим мнением
+		</p>
+
+		<div class="rating-area">
+			<div class="rating-area__item"></div>
+			<div class="rating-area__item"></div>
+			<div class="rating-area__item"></div>
+			<div class="rating-area__item"></div>
+			<div class="rating-area__item"></div>
+		</div>
+		<button class="write-feedback">Напишите отзыв</button>
+	</div>
+
+</section>
+
+<section class="reviews" id="reviews">
+	<div class="container">
+		<div class="section-row">
+			<h2 class="section-title">
+				Оценки и отзывы
+			</h2>
+			<button class="more-btn btn"></button>
+		</div>
+		<div class="reviews-wrapper">
+			<div class="evaluation-block">
+				<span class="evaluation-block__digit">4,4</span>
+				<div class="evaluation-block__stars">
+					<div class="evaluation-block__img-block">					<img src="img/google-icons/5stars-green.svg" alt="">
+					</div>
+				</div>
+				<p class="evaluation-block__amount">2 303 778</p>
+			</div>
+
+			<div class="evaluation-wrap">
+				<div class="evaluation-wrap__item">
+					<div class="evaluation-wrap__scale">
+						<div class="evaluation-wrap__rating evaluation-wrap__rating_5"></div>
+					</div>
+				</div>
+				<div class="evaluation-wrap__item">
+					<div class="evaluation-wrap__scale">
+						<div class="evaluation-wrap__rating evaluation-wrap__rating_4"></div>
+					</div>
+				</div>
+				<div class="evaluation-wrap__item">
+					<div class="evaluation-wrap__scale">
+						<div class="evaluation-wrap__rating evaluation-wrap__rating_3"></div>
+					</div>
+				</div>
+				<div class="evaluation-wrap__item">
+					<div class="evaluation-wrap__scale">
+						<div class="evaluation-wrap__rating evaluation-wrap__rating_2"></div>
+					</div>
+				</div>
+				<div class="evaluation-wrap__item">
+					<div class="evaluation-wrap__scale">
+						<div class="evaluation-wrap__rating evaluation-wrap__rating_1"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="reviews-content">
+			<div class="reviews-card">
+				<div class="reviews-card__user">
+					<div class="reviews-card__img-block">
+						<img src="img/user-photos/user-photo-1.jpg" alt="Фото профиля" class="reviews-card__img">
+					</div>
+					<p class="reviews-card__name">
+						Александр Куликовский
+					</p>
+					<button class="reviews-card__btn-menu btn"></button>
+				</div>
+				<div class="reviews-content__info">
+					<div class="reviews-content__stars">
+						<img src="img/google-icons/star-green.svg" alt="" class="reviews-content__stars-item">
+						<img src="img/google-icons/star-gray.svg" alt="" class="reviews-content__stars-item">
+						<img src="img/google-icons/star-gray.svg" alt="" class="reviews-content__stars-item">
+						<img src="img/google-icons/star-gray.svg" alt="" class="reviews-content__stars-item">
+						<img src="img/google-icons/star-gray.svg" alt="" class="reviews-content__stars-item">
+					</div>
+					<span class="reviews-content__date">
+						29.11.2021
+					</span>
+				</div>
+				<p class="reviews-content__text">
+					Добрый день, телефон Galaxy s21 5g, игра жутко лагает. Просто жесть какая-то. Тех поддержка отвратительная. Правильней сказать она и вовсе отсутствует. Просто FAQ только с ботом. Описываю проблему прикладываю видео с проблемой, а в ответ тишина.
+				</p>
+				<div class="reviews-content__row">
+					<p class="reviews-content__question">
+						Был ли этот вопрос полезен?
+					</p>
+					<div class="reviews-content__btn-block">
+						<button class="reviews-content__block-btn">Да</button>
+						<button class="reviews-content__block-btn">Нет</button>
+					</div>
+				</div>
+			</div>
+			<div class="reviews-card">
+				<div class="reviews-card__user">
+					<div class="reviews-card__img-block">
+						<img src="img/user-photos/user-photo-2.jpg" alt="Фото профиля" class="reviews-card__img">
+					</div>
+					<p class="reviews-card__name">
+						Алексей Мигуль
+					</p>
+					<button class="reviews-card__btn-menu btn"></button>
+				</div>
+				<div class="reviews-content__info">
+					<div class="reviews-content__stars">
+						<img src="img/google-icons/star-green.svg" alt="" class="reviews-content__stars-item">
+						<img src="img/google-icons/star-green.svg" alt="" class="reviews-content__stars-item">
+						<img src="img/google-icons/star-gray.svg" alt="" class="reviews-content__stars-item">
+						<img src="img/google-icons/star-gray.svg" alt="" class="reviews-content__stars-item">
+						<img src="img/google-icons/star-gray.svg" alt="" class="reviews-content__stars-item">
+					</div>
+					<span class="reviews-content__date">
+						29.11.2021
+					</span>
+				</div>
+				<p class="reviews-content__text">
+					Игра хороша была для меня до сегодняшнего дня. "Выкидывает" фокус типа сетевая гонка скоро, сезон легенды скоро и ежедневное тоже "скоро". Играть можно только в карьеру, всё остальное закрыто. А ежедневное задание при этом висит.
+				</p>
+				<div class="reviews-content__row">
+					<p class="reviews-content__question">
+						Был ли этот вопрос полезен?
+					</p>
+					<div class="reviews-content__btn-block">
+						<button class="reviews-content__block-btn">Да</button>
+						<button class="reviews-content__block-btn">Нет</button>
+					</div>
+				</div>
+			</div>
+			<div class="reviews-card">
+				<div class="reviews-card__user">
+					<div class="reviews-card__img-block">
+						<img src="img/user-photos/user-photo-3.jpg" alt="Фото профиля" class="reviews-card__img">
+					</div>
+					<p class="reviews-card__name">
+						Сиромах Сергей
+					</p>
+					<button class="reviews-card__btn-menu btn"></button>
+				</div>
+				<div class="reviews-content__info">
+					<div class="reviews-content__stars">
+						<img src="img/google-icons/star-green.svg" alt="" class="reviews-content__stars-item">
+						<img src="img/google-icons/star-green.svg" alt="" class="reviews-content__stars-item">
+						<img src="img/google-icons/star-green.svg" alt="" class="reviews-content__stars-item">
+						<img src="img/google-icons/star-green.svg" alt="" class="reviews-content__stars-item">
+						<img src="img/google-icons/star-gray.svg" alt="" class="reviews-content__stars-item">
+					</div>
+					<span class="reviews-content__date">
+						29.11.2021
+					</span>
+				</div>
+				<p class="reviews-content__text">
+					Игра ПУШКА! Я сразу не понял что можно управлять самостоятельно,но как только отключил эту ху...настройку которая даёт тебе выбирать только каким маршрутом машина поедет,игра заиграла. Просто шик( но железо на мобиле вам надо хорошее).
+				</p>
+				<div class="reviews-content__row">
+					<p class="reviews-content__question">
+						Был ли этот вопрос полезен?
+					</p>
+					<div class="reviews-content__btn-block">
+						<button class="reviews-content__block-btn">Да</button>
+						<button class="reviews-content__block-btn">Нет</button>
+					</div>
+				</div>
+			</div>
+			<a href="#" class="all-reviews">
+				Все отзывы
+			</a>
+		</div>
+	</div>
+</section>
+
+<section class="contacts">
+	<div class="container">
+		<div class="contacts-wrapper">
+			<button class="contacts-btn">
+				Связь с разработчиком
+			</button>
+			<div class="contacts-content">
+				
+				<a href="#" class="contacts-item">
+					<img src="img/google-icons/public.svg" class="contacts-item__icon">
+					<div class="contacts-item__box">
+						<p class="contacts-item__title">
+							Сайт
+						</p>
+					</div>
+				</a>
+				<a href="#" class="contacts-item">
+					<img src="img/google-icons/emai.svg" class="contacts-item__icon">
+					<div class="contacts-item__box">
+						<p class="contacts-item__title">
+							Этектронная почтка
+						</p>
+						<p class="contacts-item__text">
+							test@mail.com
+						</p>
+					</div>
+				</a>
+				<a href="#" class="contacts-item">
+					<img src="img/google-icons/place.svg" class="contacts-item__icon">
+					<div class="contacts-item__box">
+						<p class="contacts-item__title">
+							Адрес
+						</p>
+						<p class="contacts-item__text">
+							14 rue Auber 45780
+						</p>
+					</div>
+				</a>
+				<a href="#" class="contacts-item">
+					<img src="img/google-icons/shield.svg" class="contacts-item__icon">
+					<div class="contacts-item__box">
+						<p class="contacts-item__title">
+							Конфиденциальность
+						</p>
+					</div>
+				</a>
+				
+			</div>
+		</div>
+	</div>
+</section>
+
+<section class="similar-games" id="similar-games">
+	<div class="container container_big">
+		<h2 class="section-title">
+			Похожие игры
+		</h2>
+		<div class="carousel-games"
+		data-flickity='{ "freeScroll": true, "contain": true, "prevNextButtons": false, "pageDots": false }'>
+			<div class="carousel-games__item carousel-games__item_first">
+				<img src="img/app-icons/similar-games-1.jpg" alt="qqq">
+				<p>Asphalt 8 - Аркадные Гон..</p>
+				<span>119 МБ</span>
+			</div>
+			<div class="carousel-games__item">
+				<img src="img/app-icons/similar-games-2.jpg" alt="qqq">
+				<p>Asphalt 8 - Аркадные Гон..</p>
+				<span>119 МБ</span>
+			</div>
+			<div class="carousel-games__item">
+				<img src="img/app-icons/similar-games-3.jpg" alt="qqq">
+				<p>Asphalt 8 - Аркадные Гон..</p>
+				<span>119 МБ</span>
+			</div>
+			<div class="carousel-games__item">
+				<img src="img/app-icons/similar-games-4.jpg" alt="qqq">
+				<p>Asphalt 8 - Аркадные Гон..</p>
+				<span>119 МБ</span>
+			</div>
+			<div class="carousel-games__item">
+				<img src="img/app-icons/similar-games-5.jpg" alt="qqq">
+				<p>Asphalt 8 - Аркадные Гон..</p>
+				<span>119 МБ</span>
+			</div>
+			<div class="carousel-games__item">
+				<img src="img/app-icons/similar-games-6.jpg" alt="qqq">
+				<p>Asphalt 8 - Аркадные Гон..</p>
+				<span>119 МБ</span>
+			</div>
+			<div class="carousel-games__item">
+				<img src="img/app-icons/similar-games-7.jpg" alt="qqq">
+				<p>Asphalt 8 - Аркадные Гон..</p>
+				<span>119 МБ</span>
+			</div>
+			<div class="carousel-games__item">
+				<img src="img/app-icons/similar-games-8.jpg" alt="qqq">
+				<p>Asphalt 8 - Аркадные Гон..</p>
+				<span>119 МБ</span>
+			</div>
+		</div>
+	</div>
+</section>
+
+<section class="similar-app" id="similar-app">
+	<div class="container container_big">
+		<h2 class="section-title section-title_add">
+			Похожие приложения
+		</h2>
+		<div class="carousel-games"
+		data-flickity='{ "freeScroll": true, "contain": true, "prevNextButtons": false, "pageDots": false }'>
+			<div class="carousel-games__item">
+				<img src="img/app-icons/similar-app-1.jpg" alt="qqq">
+				<p>Asphalt 8 - Аркадные Гон..</p>
+				<span>119 МБ</span>
+			</div>
+			<div class="carousel-games__item">
+				<img src="img/app-icons/similar-app-2.jpg" alt="qqq">
+				<p>Asphalt 8 - Аркадные Гон..</p>
+				<span>119 МБ</span>
+			</div>
+			<div class="carousel-games__item">
+				<img src="img/app-icons/similar-app-3.jpg" alt="qqq">
+				<p>Asphalt 8 - Аркадные Гон..</p>
+				<span>119 МБ</span>
+			</div>
+			<div class="carousel-games__item">
+				<img src="img/app-icons/similar-app-4.jpg" alt="qqq">
+				<p>Asphalt 8 - Аркадные Гон..</p>
+				<span>119 МБ</span>
+			</div>
+			<div class="carousel-games__item">
+				<img src="img/app-icons/similar-app-5.jpg" alt="qqq">
+				<p>Asphalt 8 - Аркадные Гон..</p>
+				<span>119 МБ</span>
+			</div>
+			<div class="carousel-games__item">
+				<img src="img/app-icons/similar-app-6.jpg" alt="qqq">
+				<p>Asphalt 8 - Аркадные Гон..</p>
+				<span>119 МБ</span>
+			</div>
+			<div class="carousel-games__item">
+				<img src="img/app-icons/similar-app-7.jpg" alt="qqq">
+				<p>Asphalt 8 - Аркадные Гон..</p>
+				<span>119 МБ</span>
+			</div>
+			<div class="carousel-games__item">
+				<img src="img/app-icons/similar-app-8.jpg" alt="qqq">
+				<p>Asphalt 8 - Аркадные Гон..</p>
+				<span>119 МБ</span>
+			</div>
+		</div>
+	</div>
+</section>
+
+<section class="more-app" id="more-app">
+	<div class="container container_full">
+		<div class="more-app-wrapper">
+			<div class="carousel-games carousel-games_bg "
+			data-flickity='{ "freeScroll": true, "contain": true, "prevNextButtons": false, "pageDots": false }'>
+				<div class="carousel-games__item_big">
+					<div class="developer-offer">
+						<div class="developer-offer__logo">
+							<img src="img/app-demo/asphalt9/logo.svg" alt="gameloft" class="logo">
+						</div>
+						<h3 class="developer-offer__title">
+							Gameloft SE: другие приложения 
+						</h3>
+						<a href="#" class="developer-offer__btn">ЕЩЕ</a>
+					</div>
+				</div>
+				<div class="carousel-games__item">
+					<img src="img/app-icons/more-app-1.jpg" alt="qqq">
+					<p>Asphalt 8 - Аркадные Гон..</p>
+					<span>119 МБ</span>
+				</div>
+				<div class="carousel-games__item">
+					<img src="img/app-icons/more-app-2.jpg" alt="qqq">
+					<p>Asphalt 8 - Аркадные Гон..</p>
+					<span>119 МБ</span>
+				</div>
+				<div class="carousel-games__item">
+					<img src="img/app-icons/more-app-3.jpg" alt="qqq">
+					<p>Asphalt 8 - Аркадные Гон..</p>
+					<span>119 МБ</span>
+				</div>
+				<div class="carousel-games__item">
+					<img src="img/app-icons/more-app-4.jpg" alt="qqq">
+					<p>Asphalt 8 - Аркадные Гон..</p>
+					<span>119 МБ</span>
+				</div>
+				<div class="carousel-games__item">
+					<img src="img/app-icons/more-app-5.jpg" alt="qqq">
+					<p>Asphalt 8 - Аркадные Гон..</p>
+					<span>119 МБ</span>
+				</div>
+				<div class="carousel-games__item">
+					<img src="img/app-icons/more-app-6.jpg" alt="qqq">
+					<p>Asphalt 8 - Аркадные Гон..</p>
+					<span>119 МБ</span>
+				</div>
+				<div class="carousel-games__item">
+					<img src="img/app-icons/similar-games-8.jpg" alt="qqq">
+					<p>Asphalt 8 - Аркадные Гон..</p>
+					<span>119 МБ</span>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+<section class="refund" id="refund">
+	<div class="container">
+		<div class="refund-wrap">
+			<button class="refund-btn">
+				Правила возврата платежей в Google Play
+			</button>
+		</div>
+	</div>
+</section>
+
+
+
+
+<script src="js/jquery-3.6.0.min.js"></script>
+<script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+<script src="js/main.js"></script>
+
+</body>
+</html>
